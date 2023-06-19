@@ -6,8 +6,7 @@ function truthCheck(collection, pre) {
     element[pre] ? arr.push(true) : arr.push(false);
   })
   
-  let result = arr.includes(false) ? false : true;
-  return result;
+  return result = arr.includes(false) ? false : true;
 }
 
 truthCheck([{name: "Quincy", role: "Founder", isBot: false}, {name: "Naomi", role: "", isBot: false}, {name: "Camperbot", role: "Bot", isBot: true}], "isBot");
