@@ -7,8 +7,7 @@ function palindrome(str) {
     }
   })
   
-  arr.join('') === arr.reverse().join('') ? result = true : result = false;
-  return result;
+  return result = arr.join('') === arr.reverse().join('') ? true : false;;
 }
 
 palindrome("A man, a plan, a canal. Panama");
